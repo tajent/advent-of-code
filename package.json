@@ -1,0 +1,19 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "DaySix.js",
+  "dependencies": {
+    "eslint": "^6.7.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  },
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "type": "module"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
