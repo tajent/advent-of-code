@@ -1,40 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d99402bc-92e4-4b9d-aaef-37179b362895" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/DaySix.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DaySix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DaySix.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/DaySix.test.js" afterDir="false" />
+    <list default="true" id="7f9a9114-8c3c-457b-87c6-2fb3087624aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1VbSbenpQa30m2p47xLYOpDvxjj" />
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/local/Cellar/maven/3.6.0/libexec" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VZuRSXPDdIaRG7AiI55hiHuLxG" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.15.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Mocha.Test paths with sample input (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -49,14 +72,14 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
       <method v="2">
@@ -72,29 +95,113 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test paths with sample input (1)" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/DayFive.test.js</test-file>
+      <test-names>
+        <name value="Test paths with sample input" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test paths with sample input" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/DaySix.test.js</test-file>
+      <test-names>
+        <name value="Test paths with sample input" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test paths with sample input.find total number of orbits from YOU to SAN" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/DaySix.test.js</test-file>
+      <test-names>
+        <name value="Test paths with sample input" />
+        <name value="find total number of orbits from YOU to SAN" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.Test paths with sample input (1)" />
+        <item itemvalue="Mocha.Test paths with sample input.find total number of orbits from YOU to SAN" />
+        <item itemvalue="Mocha.Test paths with sample input" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d99402bc-92e4-4b9d-aaef-37179b362895" name="Default Changelist" comment="" />
-      <created>1577520374244</created>
+      <changelist id="7f9a9114-8c3c-457b-87c6-2fb3087624aa" name="Default Changelist" comment="" />
+      <created>1577472930132</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1577520374244</updated>
+      <updated>1577472930132</updated>
+      <workItem from="1577472934110" duration="21052000" />
     </task>
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="77" key="GridCell.Tab.0.bottom" timestamp="1577729097539">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="77" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577729097539" />
+    <state width="775" height="278" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1577720005382" />
+    <state width="1398" height="77" key="GridCell.Tab.0.center" timestamp="1577729097538">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="77" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577729097538" />
+    <state width="775" height="278" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1577720005380" />
+    <state width="1398" height="77" key="GridCell.Tab.0.left" timestamp="1577729097538">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="77" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577729097538" />
+    <state width="775" height="278" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1577720005378" />
+    <state width="1398" height="77" key="GridCell.Tab.0.right" timestamp="1577729097539">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="77" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577729097539" />
+    <state width="775" height="278" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1577720005381" />
+    <state x="511" y="179" key="RollbackChangesDialog" timestamp="1577655607214">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="511" y="179" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1577655607214" />
   </component>
 </project>
